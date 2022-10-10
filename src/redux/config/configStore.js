@@ -1,10 +1,10 @@
 import { createStore } from "redux";
 import { combineReducers } from "redux";
 
-import wordAdder from "../modules/todos"
+import wordAdder from "../modules/todos";
 
 const rootReducer = combineReducers({
-    wordAdder: wordAdder
+  wordAdder: wordAdder,
 });
 const store = createStore(rootReducer);
 
