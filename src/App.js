@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux"; // -> 디스페치를 가져와 사용하기위해 임폿해준다
 import { addWord } from "./redux/modules/todos";
 import styled from "styled-components";
+import Router from "./shared/Router";
 
 const StTitle = styled.div`
   margin: 30px auto 20px 30px;
@@ -85,6 +86,7 @@ const App = () => {
 
   return (
     <div>
+      <Router />
       <StTitle>TodoList 제목 만들어주기</StTitle>
 
       {/* // 이벤트 함수를 위하여 onSubmit를 만들어준다 */}

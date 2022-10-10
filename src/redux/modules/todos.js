@@ -2,7 +2,7 @@
 //추가하기 버튼을 눌렀을때 변화되어야 하는 액션 이름 붙여주기
 const ADD_BUTTON = "ADD_BUTTON";
 
-//디스패치 만들어주기-리듀서에게 보낼 명령만들기 (export)
+//액션 만들어주기-리듀서에게 보낼 명령만들기 (export)
 //  사용자가 입력한값 payload ---> 나는 입력한 값을 wordget이라고 이름지어줬다
 export const addWord = (wordget) => {
   //    console.log(wordget)  ---> 인풋값이 입력한값 ok
